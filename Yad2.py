@@ -17,8 +17,6 @@ class Yad2Monitor():
         
         user=os.environ.ge("mongo_user")
         password = os.environ.ge("mongo_user")
-        host = os.environ.ge("host")
-        host = os.environ.ge("host")
         
         assert user and password, "Missing credentilas for mongoDB"
         
