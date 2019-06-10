@@ -16,7 +16,7 @@ class Yad2Monitor():
         self.cars = {}
         
         user=os.environ.ge("mongo_user")
-        password = os.environ.ge("mongo_user")
+        password = os.environ.ge("mongo_pwd")
         
         assert user and password, "Missing credentilas for mongoDB"
         
